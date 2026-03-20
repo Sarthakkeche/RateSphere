@@ -74,4 +74,44 @@ RateSphere/
 │   └── package.json
 └── README.md
 
+🧑‍💻 Getting Started
+✅ Prerequisites
+Node.js (v16+)
 
+MySQL (Local or Cloud-hosted like Railway)
+
+Git
+
+1️⃣ Clone the Repository
+Bash
+git clone [https://github.com/Sarthakkeche/RateSphere.git](https://github.com/Sarthakkeche/RateSphere.git)
+cd RateSphere
+
+2️⃣ Backend Setup
+Bash
+cd server
+npm install
+Create a .env file in the server directory and configure your database and JWT secret:
+
+Code snippet
+PORT=5000
+MYSQL_URL="mysql://user:password@host:port/database"
+JWT_SECRET="your_super_secret_key"
+Start the backend server:
+
+Bash
+npm run dev
+3️⃣ Frontend Setup
+Open a new terminal window:
+
+Bash
+cd client
+npm install
+npm run dev
+
+
+👨‍💻 Author
+Sarthak Keche Full-Stack Developer
+
+If you find this project helpful, feel free to ⭐ the repository!
+Would you like me to walk you through the Git commands to push your project up to your repository so you can show it off?
